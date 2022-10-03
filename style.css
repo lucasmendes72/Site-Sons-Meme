@@ -16,4 +16,13 @@ header a {
 	text-decoration: none;
 	font-size: 2rem;
 	top: 30px;
+	display: inline-block;
+}
+form input {
+	border: none;
+	display: inline-block;
+	position: absolute;
+	margin: 2.5% 0 0 20%;
+	padding: 0.5rem;
+	border-radius: 20px;
 }
