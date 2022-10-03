@@ -1,0 +1,19 @@
+header {
+	height: 100px;
+	width: 100%;
+	background: linear-gradient(45deg, #00CED1, #40E0D0);
+}
+
+.caixa {
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+}
+
+header a {
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	top: 30px;
+}
