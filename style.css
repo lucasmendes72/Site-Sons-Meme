@@ -49,9 +49,16 @@ nav a {
 }
 
 .tecla {
-	width: 100px;
-	height: 100px;
-	background: red;
+	width: 200px;
+	height: 200px;
+	background: url(botao.png) no-repeat;
+	background-size: cover;
+	border: none;
+	cursor: pointer;
+}
+
+.tecla:active {
+	transform: scale(0.9);
 }
 
 footer {
