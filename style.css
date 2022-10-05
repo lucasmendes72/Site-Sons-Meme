@@ -48,6 +48,19 @@ nav a {
 	text-decoration: none;
 }
 
+main {
+	display: flex;
+}
+
+.botao-legenda {
+	text-align: center;
+}
+
+.botao-legenda p {
+	color: #20B2AA;
+	display: block;
+}
+
 .tecla {
 	width: 200px;
 	height: 200px;
