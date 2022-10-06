@@ -20,6 +20,18 @@ body {
 	height: 100%;
 }
 
+.titulo-pre {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.titulo-pre a, p {
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #20B2AA;
+	display: inline-block;
+}
+
 main {
 	max-width: 90%;
 	min-height: 100vh;
