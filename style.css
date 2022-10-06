@@ -22,6 +22,7 @@ body {
 
 main {
 	max-width: 90%;
+	min-height: 100vh;
 	margin: auto;
 }
 
@@ -92,10 +93,8 @@ nav a {
 footer {
 	background: linear-gradient(90deg, #20B2AA, #00CED1, #40E0D0);
 	text-align: center;
-	position: fixed;
 	bottom: 0;
 	height: 155px;
-	width: 100%;
 }
 
 .copyright {
