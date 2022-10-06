@@ -1,13 +1,11 @@
 /* Css da Página Inicial - Index Html */
 
-/*html {
+html {
 	width: 100%;
 	height: 100%;
-}*/
+}
 
 header {
-	height: 100px;
-	width: 100%;
 	background: linear-gradient(90deg, #20B2AA, #00CED1, #40E0D0);
 }
 
@@ -17,16 +15,15 @@ header {
 	margin: 0 auto;
 }
 
-/*body {
+body {
 	width: 100%;
 	height: 100%;
-}*/
+}
 
-/*main {
-	display: flex;
-	width: 90%;
-	height: 100%;
-}*/
+main {
+	max-width: 90%;
+	margin: auto;
+}
 
 .titulo-cabecalho {
 	position: absolute;
@@ -65,7 +62,8 @@ nav a {
 }
 
 .botoes {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .botao-legenda {
@@ -79,8 +77,8 @@ nav a {
 }
 
 .tecla {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	background: url(botao.png) no-repeat;
 	background-size: cover;
 	border: none;
@@ -94,7 +92,10 @@ nav a {
 footer {
 	background: linear-gradient(90deg, #20B2AA, #00CED1, #40E0D0);
 	text-align: center;
-	/*width: 100%;*/
+	position: fixed;
+	bottom: 0;
+	height: 155px;
+	width: 100%;
 }
 
 .copyright {
