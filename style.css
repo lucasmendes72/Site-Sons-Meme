@@ -32,10 +32,38 @@ body {
 	display: inline-block;
 }
 
+.banner-ad-esquerda {
+	width: 160px;
+	height: 600px;
+	background: url(fundo-ad.png);
+	/*position: fixed;*/
+	float: left;
+	left: 0;
+
+}
+
+.banner-ad-direita, {
+	width: 160px;
+	height: 600px;
+	background: url(fundo-ad.png);
+	/*position: fixed;*/
+	float: right;
+	right: 0;
+}
+
 main {
-	max-width: 90%;
+	max-width: 70%;
 	min-height: 70vh;
 	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.banner-ad-meio {
+	width: 70%;
+	height: 250px;
+	margin: auto;
+	background: url(fundo-ad.png);
+	margin-bottom: 2rem;
 }
 
 .titulo-cabecalho {
