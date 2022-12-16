@@ -37,7 +37,7 @@ body {
 
 .titulo-pre {
 	text-align: center;
-	margin-top: 2rem;
+	margin: 2rem auto;
 }
 
 .titulo-pre a, p {
@@ -123,12 +123,12 @@ nav a {
 
 .botao-legenda {
 	text-align: center;
-	di
 }
 
 .botao-legenda p {
 	color: #20B2AA;
 	display: block;
+	margin-bottom: 2rem;
 }
 
 .tecla {
@@ -157,7 +157,49 @@ footer {
 	display: block;
 }
 
-/* Css da Página 'Em Alta' */
+/* ----- Adaptações para Responsividade ----- */
+
+@media screen and (max-device-width: 480px){
+	main {
+		max-width: 90%;
+	}
+
+	.titulo-cabecalho {
+		display: none;
+	}
+
+	nav {
+		margin-top: 45px;
+	}
+
+	nav li {
+		padding: 0 1rem;
+	}
+
+	.input-field {
+		margin-left: 35%;
+		margin-top: 15px;
+		width: 12rem;
+	}
+
+	.input-icons i {
+		top: 20%;
+		left: 38%;
+	}
+	
+	.botoes {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.posicionando-banners-laterais {
+		display: none;
+	}
+
+	footer {
+		height: auto;
+	}
+}
+
 
 
 
